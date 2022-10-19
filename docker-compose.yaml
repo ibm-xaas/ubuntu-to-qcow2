@@ -10,6 +10,7 @@ services:
     build:
       context: .
     image: ghcr.io/ibm-xaas/dev-env:nightly
+    #platform: linux/amd64
     volumes:
       # For future ssh use in development
       - ~/.ssh:/home/ubuntu/.ssh:ro
