@@ -8,7 +8,11 @@ crash.log
 *.box
 
 # pub key
-disk-ssh-pub.img
+disk-ssh-pub*.img
 
 # output dir
 **/output/
+
+# user-data
+user-data*
+meta-data*
