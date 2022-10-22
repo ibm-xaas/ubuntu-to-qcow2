@@ -14,7 +14,7 @@ source "qemu" "jammy" {
   memory                    = 4096
   disk_image                = true
   disk_interface            = "virtio"
-  boot_wait                 = "10s"
+  boot_wait                 = "3m"
   use_default_display       = true
   vm_name                   = "jammy"
   qemuargs = [
