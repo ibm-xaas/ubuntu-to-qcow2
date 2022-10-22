@@ -32,7 +32,7 @@
 			"qemuargs": [
 				[
 					"-cdrom",
-					"disk-ssh-pub-jammy.img"
+					"disk-ssh-pub-bionic.img"
 				]
 			]
 		},
@@ -58,7 +58,7 @@
 			"qemuargs": [
 				[
 					"-cdrom",
-					"disk-ssh-pub-jammy.img"
+					"disk-ssh-pub-focal.img"
 				]
 			]
 		}
